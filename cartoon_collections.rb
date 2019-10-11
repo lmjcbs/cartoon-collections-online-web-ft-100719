@@ -20,4 +20,5 @@ def find_the_cheese(array)# code an argument here
   array.each_with_index do |ingredient, i|
     if ingredient.include?(cheese_types)
       cheese = array[i]
+    end
 end
