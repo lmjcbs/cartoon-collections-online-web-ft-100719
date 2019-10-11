@@ -22,4 +22,5 @@ def find_the_cheese(array)# code an argument here
       cheese = array[i]
     end
   end
+  cheese
 end
